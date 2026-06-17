@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@#)zf+$6r&)f_r@hhjwrom03518jvm@ojm5s3-!-&($3qfig(5
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+AUTH_USER_MODEL = "accounts.StoreUsers"
 
 # Application definition
 
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'accounts',
 
 ]
 
