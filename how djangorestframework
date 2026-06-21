@@ -1,0 +1,12 @@
+[1mdiff --git a/config/settings.py b/config/settings.py[m
+[1mindex 88c60ee..6743449 100644[m
+[1m--- a/config/settings.py[m
+[1m+++ b/config/settings.py[m
+[36m@@ -39,6 +39,7 @@[m [mINSTALLED_APPS = [[m
+     'django.contrib.staticfiles',[m
+     'accounts',[m
+    'product',[m
+[32m+[m[32m   'rest_framework',[m
+  [m
+ [m
+ ][m
