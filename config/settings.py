@@ -37,6 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'accounts',
+    'cart',
+    'catalog',
+    'orders',
+    'payments',
+    'reviews',
+    'wishlist',
+    'shared',
 ]
 
 MIDDLEWARE = [
@@ -48,7 +57,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+AUTH_USER_MODEL = 'accounts.User'
 ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
