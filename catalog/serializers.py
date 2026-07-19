@@ -4,8 +4,8 @@ from .models import Category,Brand,Product
 
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
-        model=Category
-        field=['id','name','slug']
+        model = Category
+        fields = ['id', 'name', 'slug']
 
 
 
