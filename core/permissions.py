@@ -1,6 +1,5 @@
 from rest_framework.permissions import SAFE_METHODS, BasePermission
 
-
 class IsAdminOrReadOnly(BasePermission):
     """
     Allow read-only access to everyone.
@@ -14,3 +13,5 @@ class IsAdminOrReadOnly(BasePermission):
             and request.user.is_authenticated
             and request.user.role == request.user.Role.ADMIN
         )
+    
+
